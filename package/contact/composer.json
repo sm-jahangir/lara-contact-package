@@ -1,0 +1,19 @@
+{
+    "name": "codersgift/contact",
+    "description": "This will sent email to admin and save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jahangir Alam",
+            "email": "samraatjahangir@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Codersgift\\Contact\\": "src/"
+        }
+    }
+}

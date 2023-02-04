@@ -185,7 +185,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Codersgift\Contact\ContactServiceProvider::class,
         /*
          * Application Service Providers...
          */
