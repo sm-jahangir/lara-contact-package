@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "254ea6173e0eb031dd385c92b8f20b17",
+    "content-hash": "b3f63ad6819b76afc4e9ee59a3604ec1",
     "packages": [
         {
             "name": "brick/math",
@@ -980,6 +980,81 @@
                 }
             ],
             "time": "2022-05-21T17:30:32+00:00"
+        },
+        {
+            "name": "itskodinger/midia",
+            "version": "v1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itskodinger/midia.git",
+                "reference": "c226b87a647f3921f2484a566627345d077f3258"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itskodinger/midia/zipball/c226b87a647f3921f2484a566627345d077f3258",
+                "reference": "c226b87a647f3921f2484a566627345d077f3258",
+                "shasum": ""
+            },
+            "require": {
+                "intervention/image": "2.*",
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Itskodinger\\Midia\\MidiaServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Itskodinger\\Midia\\": "src/"
+                },
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Muhamad Nauval Azhar",
+                    "email": "nauvalazhar2@gmail.com"
+                },
+                {
+                    "name": "Multinity",
+                    "email": "hi@multinity.com"
+                },
+                {
+                    "name": "Kodinger",
+                    "email": "itskodinger@gmail.com"
+                },
+                {
+                    "name": "Rizal Fakhri",
+                    "email": "rizal@codehub.id"
+                }
+            ],
+            "description": "Simple Media manager for your Laravel project",
+            "keywords": [
+                "CKEditor",
+                "dropzone",
+                "file",
+                "filemanager",
+                "image",
+                "laravel",
+                "manager",
+                "summernote",
+                "tinymce",
+                "upload"
+            ],
+            "support": {
+                "issues": "https://github.com/itskodinger/midia/issues",
+                "source": "https://github.com/itskodinger/midia/tree/v1.4.1"
+            },
+            "time": "2019-06-01T13:56:09+00:00"
         },
         {
             "name": "laravel/framework",
