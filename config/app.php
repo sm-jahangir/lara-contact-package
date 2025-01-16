@@ -188,6 +188,7 @@ return [
         Codersgift\Contact\ContactServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
         Itskodinger\Midia\MidiaServiceProvider::class,
+        Codersgift\Installer\InstallerServiceProvider::class,
         /*
          * Application Service Providers...
          */
