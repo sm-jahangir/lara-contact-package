@@ -4,7 +4,7 @@ use Codersgift\Installer\Http\Controllers\InstallerController;
 use Illuminate\Support\Facades\Route;
 
 // Grouping installation routes
-Route::group(['middleware' => 'installcheck', 'prefix' => 'install'], function () {
+Route::group(['middleware' => 'installcheck', 'prefix' => 'installer'], function () {
     
     // Route to initiate installation
     Route::get('/', [InstallerController::class, 'welcomeInstaller'])
